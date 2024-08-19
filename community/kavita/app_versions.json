@@ -3,12 +3,12 @@
         "healthy": true,
         "supported": false,
         "healthy_error": null,
-        "location": "/__w/charts/charts/community/kavita/1.2.10",
-        "last_update": "2024-08-13 07:44:31",
+        "location": "/__w/truenas-catalog/truenas-catalog/community/kavita/1.2.10",
+        "last_update": "2024-07-08 12:48:14",
         "required_features": [
-            "definitions/timezone",
+            "normalize/ixVolume",
             "normalize/acl",
-            "normalize/ixVolume"
+            "definitions/timezone"
         ],
         "human_version": "0.8.2_1.2.10",
         "version": "1.2.10",

@@ -3,11 +3,11 @@
         "healthy": true,
         "supported": true,
         "healthy_error": null,
-        "location": "/__w/charts/charts/community/nginx-proxy-manager/1.0.33",
-        "last_update": "2024-08-13 07:44:31",
+        "location": "/__w/truenas-catalog/truenas-catalog/community/nginx-proxy-manager/1.0.33",
+        "last_update": "2024-07-02 13:26:34",
         "required_features": [
-            "definitions/timezone",
-            "normalize/ixVolume"
+            "normalize/ixVolume",
+            "definitions/timezone"
         ],
         "human_version": "2.11.3_1.0.33",
         "version": "1.0.33",

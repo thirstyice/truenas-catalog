@@ -3,11 +3,11 @@
         "healthy": true,
         "supported": true,
         "healthy_error": null,
-        "location": "/__w/charts/charts/community/jellyseerr/1.0.24",
-        "last_update": "2024-08-13 07:44:31",
+        "location": "/__w/truenas-catalog/truenas-catalog/community/jellyseerr/1.0.24",
+        "last_update": "2024-06-14 10:57:17",
         "required_features": [
-            "definitions/timezone",
-            "normalize/ixVolume"
+            "normalize/ixVolume",
+            "definitions/timezone"
         ],
         "human_version": "1.9.2_1.0.24",
         "version": "1.0.24",

@@ -3,11 +3,11 @@
         "healthy": true,
         "supported": false,
         "healthy_error": null,
-        "location": "/__w/charts/charts/community/prowlarr/1.2.34",
-        "last_update": "2024-08-13 07:44:31",
+        "location": "/__w/truenas-catalog/truenas-catalog/community/prowlarr/1.2.34",
+        "last_update": "2024-07-29 12:00:14",
         "required_features": [
-            "normalize/acl",
-            "normalize/ixVolume"
+            "normalize/ixVolume",
+            "normalize/acl"
         ],
         "human_version": "1.21.2.4649_1.2.34",
         "version": "1.2.34",

@@ -3,11 +3,11 @@
         "healthy": true,
         "supported": false,
         "healthy_error": null,
-        "location": "/__w/charts/charts/community/piwigo/1.2.7",
-        "last_update": "2024-08-13 07:44:31",
+        "location": "/__w/truenas-catalog/truenas-catalog/community/piwigo/1.2.7",
+        "last_update": "2024-07-16 09:20:06",
         "required_features": [
-            "normalize/acl",
-            "normalize/ixVolume"
+            "normalize/ixVolume",
+            "normalize/acl"
         ],
         "human_version": "14.5.0_1.2.7",
         "version": "1.2.7",

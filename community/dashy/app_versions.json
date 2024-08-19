@@ -3,12 +3,12 @@
         "healthy": true,
         "supported": false,
         "healthy_error": null,
-        "location": "/__w/charts/charts/community/dashy/2.0.2",
-        "last_update": "2024-08-13 07:44:31",
+        "location": "/__w/truenas-catalog/truenas-catalog/community/dashy/2.0.2",
+        "last_update": "2024-05-14 08:41:11",
         "required_features": [
+            "normalize/ixVolume",
             "normalize/acl",
-            "definitions/certificate",
-            "normalize/ixVolume"
+            "definitions/certificate"
         ],
         "human_version": "3.1.0_2.0.2",
         "version": "2.0.2",

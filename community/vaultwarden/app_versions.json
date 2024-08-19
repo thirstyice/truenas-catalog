@@ -3,13 +3,13 @@
         "healthy": true,
         "supported": false,
         "healthy_error": null,
-        "location": "/__w/charts/charts/community/vaultwarden/1.1.14",
-        "last_update": "2024-08-13 07:44:31",
+        "location": "/__w/truenas-catalog/truenas-catalog/community/vaultwarden/1.1.14",
+        "last_update": "2024-08-12 13:24:17",
         "required_features": [
-            "definitions/timezone",
+            "normalize/ixVolume",
             "normalize/acl",
-            "definitions/certificate",
-            "normalize/ixVolume"
+            "definitions/timezone",
+            "definitions/certificate"
         ],
         "human_version": "1.32.0_1.1.14",
         "version": "1.1.14",

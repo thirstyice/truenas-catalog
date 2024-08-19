@@ -3,13 +3,13 @@
         "healthy": true,
         "supported": false,
         "healthy_error": null,
-        "location": "/__w/charts/charts/community/handbrake/1.0.3",
-        "last_update": "2024-08-13 07:44:31",
+        "location": "/__w/truenas-catalog/truenas-catalog/community/handbrake/1.0.3",
+        "last_update": "2024-05-03 09:14:20",
         "required_features": [
-            "definitions/timezone",
+            "normalize/ixVolume",
             "normalize/acl",
-            "definitions/gpuConfiguration",
-            "normalize/ixVolume"
+            "definitions/timezone",
+            "definitions/gpuConfiguration"
         ],
         "human_version": "23.12.2_1.0.3",
         "version": "1.0.3",

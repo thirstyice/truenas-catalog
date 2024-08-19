@@ -3,8 +3,8 @@
         "healthy": true,
         "supported": true,
         "healthy_error": null,
-        "location": "/__w/charts/charts/community/redis/1.0.24",
-        "last_update": "2024-08-13 07:44:31",
+        "location": "/__w/truenas-catalog/truenas-catalog/community/redis/1.0.24",
+        "last_update": "2024-08-12 13:24:17",
         "required_features": [
             "normalize/ixVolume"
         ],
