@@ -3,6 +3,7 @@
 workload:
   nginx:
     enabled: true
+    primary: false
     type: Deployment
     podSpec:
       hostNetwork: false
