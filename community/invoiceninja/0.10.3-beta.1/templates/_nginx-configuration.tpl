@@ -8,11 +8,12 @@
   {{- $serverProtocol := " http2" -}}
 {{- end -}}
 
+{{- if .Values.inNetwork.requireHttps -}}
 scaleCertificate:
   invoiceninja-cert:
     enabled: true
     id: {{ .Values.inNetwork.certificateID }}
-
+{{- end -}}
 configmap:
   nginx:
     enabled: true
