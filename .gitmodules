@@ -1,0 +1,3 @@
+[submodule "community/invoiceninja"]
+	path = community/invoiceninja
+	url = ssh://github.com/thirstyice/invoiceninja-container
