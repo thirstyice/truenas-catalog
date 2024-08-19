@@ -14,8 +14,8 @@ persistence:
     enabled: true
     {{- include "ix.v1.common.app.storageOptions" (dict "storage" .Values.inStorage.data) | nindent 4 }}
     targetSelector:
-      invoiceninja-mariadb:
-        invoiceninja-mariadb:
+      mariadb:
+        mariadb:
           mountPath: /todo
   storage:
     enabled: true
@@ -24,20 +24,20 @@ persistence:
       invoiceninja:
         invoiceninja:
           mountPath: /var/www/app/storage
-      invoiceninja-nginx:
-        invoiceninja-nginx:
+      nginx:
+        nginx:
           mountPath: /var/www/app/storage
 
   {{- range $idx, $storage := .Values.inStorage.additionalStorages }}
-  {{ printf "nc-%v:" (int $idx) }}
+  {{ printf "in-%v:" (int $idx) }}
     enabled: true
     {{- include "ix.v1.common.app.storageOptions" (dict "storage" $storage) | nindent 4 }}
     targetSelector:
-      nextcloud:
-        nextcloud:
+      invoiceninja:
+        invoiceninja:
           mountPath: {{ $storage.mountPath }}
-      nextcloud-cron:
-        nextcloud-cron:
+      nginx:
+        nginx:
           mountPath: {{ $storage.mountPath }}
   {{- end }}
   nginx-cert:
