@@ -39,16 +39,14 @@ questions:
           description: "A 32 character long Application Key"
           schema:
             type: string
-            min_length: 32
             max_length: 32
             default: ""
-            valid_chars: "[a-zA-Z0-9]"
+            valid_chars: "[a-zA-Z0-9]{32}|"
         - variable: appURL
           label: "App URL"
           description: "Override app URL"
           schema:
             type: string
-            required: true
         - variable: userEmail
           label: User Email
           description: "Email of user to create on first run"
@@ -149,7 +147,7 @@ questions:
             default: 1024
             min: 256
         - variable: dbRootPass
-          label: Databese root password
+          label: Database root password
           description: Root password for the mariadb database
           schema:
             type: string
@@ -204,7 +202,7 @@ questions:
           label: Certificate
           description: The certificate to use
           schema:
-
+            show_if: [["requireHttps", "=", "true"]]
             type: int
             "null": true
             $ref:
