@@ -65,5 +65,5 @@ secret:
       SESSION_CONNECTION: "default"
       REQUIRE_HTTPS: {{ .Values.inNetwork.requireHttps | quote }}
       TRUSTED_PROXIES: {{ .Values.inConfig.trustedProxies | quote }}
-      PHP_MEMORY_LIMIT: {{ printf "%vM" .Values.inConfig.phpMemoryLimit }}
+      PHP_MEMORY_LIMIT: {{ printf "%vM" .Values.inConfig.phpMemoryLimit | quote }}
 {{- end -}}
