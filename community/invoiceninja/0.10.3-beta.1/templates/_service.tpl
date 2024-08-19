@@ -7,8 +7,10 @@ service:
     targetSelector: invoiceninja
     ports:
       fastcgi:
+        enabled: true
         port: 9000
-        protocol: tcp
+        targetPort: 9000
+        targetSelector: invoiceninja
   invoiceninja-nginx:
     enabled: true
     type: NodePort
