@@ -8,56 +8,5 @@ nginxImage:
   repository: nginx
   tag: 1.25.4
 
-podOptions:
-  dnsConfig:
-    options: []
-
-inConfig:
-  debug: false
-  appKey: ""
-  appURL: ""
-  userEmail: ""
-  userPassword: ""
-  logChannel: ""
-  broadcastDriver: ""
-  cacheDriver: ""
-  sessionDriver: ""
-  queueConnection: ""
-  trustedProxies: "*"
-  pdfGenerator: snappdf
-  mailer: "log"
-  requireHttps: false
-  existingSecret:
-  maxUploadLimit: 3
-  additionalEnvs: []
-
-commonLabels: {}
-commonAnnotations: {}
-serviceAccount:
-  create: false
-  annotations: {}
-  name: ""
 updateStrategy:
   type: RollingUpdate
-
-phpMemoryLimit: 512
-additionalEnvs: []
-
-inNetwork:
-  webPort: 30072
-  certificateID:
-
-inStorage:
-  data:
-    type: ixVolume
-    ixVolumeConfig:
-      datasetName: data
-  public:
-    type: ixVolume
-    ixVolumeConfig:
-      datasetName: html
-  storage:
-    type: ixVolume
-    ixVolumeConfig:
-      datasetName: pgData
-  additionalStorages: []
